@@ -65,3 +65,24 @@ console.log(valor1 > 10 && valor2< 10);
 console.log(valor2 < 100 || valor1 >10);
 console.log(valor1 == valor2);
 console.log(valor2 === valor1);
+
+//Exercicio 1 
+
+let p =100;
+console.log(p);
+let v =0.20;
+console.log(v);
+let valorFinal = p - p * v;
+console.log("O preço final com desconto é",valorFinal);
+
+//Exercicio 2 
+const a =20;
+const b =11;
+console.log(a == 20 && b >=10);
+
+//Exercicio 3 
+var user_login=true;
+var user_password=true;
+if(user_login == true){
+    console.log("Transação Realizada")
+}
